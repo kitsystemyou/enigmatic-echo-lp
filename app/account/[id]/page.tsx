@@ -45,8 +45,10 @@ const accounts = [
   },
 ]
 
-export default function AccountPage({ params }: { params: { id: string } }) {
-  const account = accounts.find((acc) => acc.id === params.id)
+export default async function AccountPage({ params }: { params: { id: string } }) {
+
+  const { id } = await params;
+  const account = accounts.find((acc) => acc.id === id);
 
   if (!account) {
     notFound()
