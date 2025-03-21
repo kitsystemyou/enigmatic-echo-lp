@@ -103,7 +103,7 @@ export default function AccountPage({ params }: { params: { id: string } }) {
   )
 }
 
-export async function generateStaticParams() {
+export async function generateStaticParams(): Promise<{ id: string }[]> {
   // 生成したいIDの配列を返す
   return [
     { id: '1' },
