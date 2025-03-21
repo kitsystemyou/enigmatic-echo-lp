@@ -21,6 +21,8 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  // For Static Build. See: https://nextjs.org/docs/app/building-your-application/deploying/static-exports
+  output: "export",
 }
 
 mergeConfig(nextConfig, userConfig)
