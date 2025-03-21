@@ -15,15 +15,15 @@ export default function AdminPage() {
           <div className="mansion-card p-6 rounded-lg text-center">
             <div className="mx-auto w-32 h-32 relative mb-4 border-4 border-amber-200 rounded-full overflow-hidden">
               <Image
-                src="/placeholder.svg?height=128&width=128"
+                src="/admin.webp?height=128&width=128"
                 alt="管理者アイコン"
                 width={128}
                 height={128}
                 className="rounded-full object-cover"
               />
             </div>
-            <h2 className="text-2xl font-serif font-bold mb-2 text-primary">Echo管理者</h2>
-            <p className="text-muted-foreground">AI画像生成システム開発者</p>
+            <h2 className="text-2xl font-serif font-bold mb-2 text-primary">シス管</h2>
+            <p className="text-muted-foreground">Sister's 開発者</p>
           </div>
 
           <div className="mansion-card p-6 rounded-lg">
@@ -34,6 +34,7 @@ export default function AdminPage() {
               height={600}
               className="w-full h-auto rounded-lg border border-amber-200"
             />
+            <p className="text-sm text-center mt-2 text-muted-foreground">(TBD)</p>
           </div>
         </div>
 
@@ -43,14 +44,15 @@ export default function AdminPage() {
           <div className="prose dark:prose-invert max-w-none">
             <h2 className="font-serif text-amber-900">Enigmatic Echo Sister'sについて</h2>
             <p className="text-amber-900">
-              Enigmatic Echo Sister'sは、最先端のAI技術を活用した画像生成Twitterボットのコレクションです。
+              Enigmatic Echo Sister'sは、最先端のAI技術を活用した画像生成Botのコレクションです。
               3つの異なるテーマを持つアカウントが、それぞれ独自のアルゴリズムとプロンプト設計に基づいて画像を自動生成し、
               定期的にTwitter上で公開しています。
             </p>
 
             <h2 className="font-serif text-amber-900">システム概要</h2>
             <p className="text-amber-900">
-              各ボットは、カスタマイズされた安定拡散モデル（Stable Diffusion）をベースに、
+              <p>(WIP)</p>
+              各ボットは、OpenAI DALLE-3 をベースに、
               独自のプロンプトジェネレーターとスケジューラーを組み合わせたシステムで動作しています。
               画像生成のパラメータは定期的に更新され、常に新鮮で魅力的なコンテンツを提供します。
             </p>
@@ -63,21 +65,19 @@ export default function AdminPage() {
                 height={400}
                 className="w-full h-auto rounded-lg border border-amber-200"
               />
-              <p className="text-sm text-center mt-2 text-muted-foreground">Enigmatic Echo Sister'sシステム構成図</p>
+              <p className="text-sm text-center mt-2 text-muted-foreground">Enigmatic Echo Sister'sシステム構成図(TBD)</p>
             </div>
 
             <h2 className="font-serif text-amber-900">開発の目的</h2>
             <p className="text-amber-900">
               このプロジェクトは、AIによる創造性の可能性を探求し、技術と芸術の融合を目指しています。
-              また、自動化されたコンテンツ生成の新しい形を模索し、AIとソーシャルメディアの関係性について
+              また、自動化されたコンテンツ生成の新しい形を模索し、生成AIとソーシャルメディアの関係性について
               研究するための実験的な取り組みでもあります。
             </p>
 
             <h2 className="font-serif text-amber-900">今後の展望</h2>
             <p className="text-amber-900">
-              今後は、ユーザーからのフィードバックを取り入れた画像生成や、インタラクティブな要素の追加など、
-              より双方向性のあるシステムへと発展させていく予定です。また、生成モデルの多様化や、
-              他のメディア（動画、音楽など）との連携も検討しています。
+              今後は、生成モデルの多様化や他のメディア（動画、音楽など）との連携も検討しています。
             </p>
           </div>
         </div>

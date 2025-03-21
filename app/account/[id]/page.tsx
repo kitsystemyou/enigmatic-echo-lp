@@ -6,41 +6,41 @@ import { notFound } from "next/navigation"
 const accounts = [
   {
     id: "0",
-    name: "Enigmatic Echo 0",
+    name: "えに子@銀髪美女生成AI",
     username: "enigmatic_echo0",
     description:
-      "抽象的な風景を生成するAIアカウントです。自然の美しさと抽象的な芸術を融合させた画像を日々生成しています。季節や時間帯によって変化する風景をお楽しみください。",
+      "幻想的な銀髪美女の画像を生成するAIアカウントです。独特の神秘さと気品溢れる美しさをお楽しみください。",
     images: [
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
+      "/silver/1.png?height=400&width=400",
+      "/silver/2.png?height=400&width=400",
+      "/silver/3.png?height=400&width=400",
+      "/silver/4.png?height=400&width=400",
     ],
   },
   {
     id: "1",
-    name: "Enigmatic Echo 1",
+    name: "にー子@金髪美女生成AI",
     username: "enigmatic_echo1",
     description:
-      "ファンタジー世界の生物を生成するAIアカウントです。ドラゴン、ユニコーン、妖精など、想像上の生き物たちを鮮やかに描き出します。毎日新しい生物が誕生します。",
+      "煌びやかな金髪美女の画像を生成するAIアカウントです。太陽のような活発さや明るさをお楽しみください。",
     images: [
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
+      "/gold/1.png?height=400&width=400",
+      "/gold/2.png?height=400&width=400",
+      "/gold/3.png?height=400&width=400",
+      "/gold/4.png?height=400&width=400",
     ],
   },
   {
     id: "2",
-    name: "Enigmatic Echo 2",
+    name: "えー子@赤髪美女生成AI",
     username: "enigmatic_echo2",
     description:
-      "未来的な都市景観を生成するAIアカウントです。SF映画のような未来都市、宇宙コロニー、サイバーパンクな街並みなど、想像力豊かな都市の姿を描き出します。",
+      "情熱的な赤髪美女の画像を生成するAIアカウントです。時に強く、時に優しい色彩をお楽しみください。",
     images: [
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
-      "/placeholder.svg?height=400&width=400",
+      "/red/1.png?height=400&width=400",
+      "/red/2.png?height=400&width=400",
+      "/red/3.png?height=400&width=400",
+      "/red/4.png?height=400&width=400",
     ],
   },
 ]
@@ -98,7 +98,7 @@ export default async function AccountPage({ params }: { params: { id: string } }
           rel="noopener noreferrer"
           className="text-primary hover:underline"
         >
-          Twitterで@{account.username}をフォローする →
+          Twitterで『{account.name}』をフォローする →
         </Link>
       </div>
     </div>

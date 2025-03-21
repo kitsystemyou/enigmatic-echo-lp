@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <div className="space-y-12">
       <section className="prose prose-lg dark:prose-invert max-w-none">
-        <h1 className="mansion-title">Enigmatic Echo Sister's</h1>
+        <h1 className="mansion-title">AI美女画像生成システム Enigmatic Echo Sister's</h1>
         <div className="mansion-card p-6 rounded-lg">
-          <h2 className="mansion-heading">AI画像生成bot アカウント群について</h2>
+          <h2 className="mansion-heading">当システムについて</h2>
           <p className="text-amber-900">
-            Enigmatic Echo Sister'sは、AIを活用した画像生成を行う3つのTwitterアカウントのコレクションです。
+            Enigmatic Echo Sister'sは、AIを活用した画像生成を行ういくつかのTwitterアカウントのコレクションです。
             それぞれのアカウントは独自のスタイルとテーマを持ち、様々な画像を自動生成して投稿しています。
             最新のAI技術を駆使し、芸術的で魅力的なビジュアルコンテンツを日々提供しています。
           </p>
@@ -21,10 +21,10 @@ export default function Home() {
           <div className="mansion-card-header p-4">
             <h3 className="text-xl font-serif font-semibold mb-2">
               <Link href="/account/0" className="hover:underline text-amber-900">
-                Enigmatic Echo 0
+                えに子@銀髪美女生成AI
               </Link>
             </h3>
-            <p className="text-sm text-muted-foreground">抽象的な風景を生成するアカウント</p>
+            <p className="text-sm text-muted-foreground">幻想的な銀髪美女の画像を生成するアカウント</p>
           </div>
           <div className="h-[500px] overflow-y-auto p-4 bg-amber-50/50">
             <TwitterEmbed username="enigmatic_echo0" />
@@ -35,10 +35,10 @@ export default function Home() {
           <div className="mansion-card-header p-4">
             <h3 className="text-xl font-serif font-semibold mb-2">
               <Link href="/account/1" className="hover:underline text-amber-900">
-                Enigmatic Echo 1
+                にー子@金髪美女生成AI
               </Link>
             </h3>
-            <p className="text-sm text-muted-foreground">ファンタジー世界の生物を生成するアカウント</p>
+            <p className="text-sm text-muted-foreground">煌びやかな金髪美女の画像を生成するアカウント</p>
           </div>
           <div className="h-[500px] overflow-y-auto p-4 bg-amber-50/50">
             <TwitterEmbed username="enigmatic_echo1" />
@@ -49,10 +49,10 @@ export default function Home() {
           <div className="mansion-card-header p-4">
             <h3 className="text-xl font-serif font-semibold mb-2">
               <Link href="/account/2" className="hover:underline text-amber-900">
-                Enigmatic Echo 2
+                えー子@赤髪美女生成AI
               </Link>
             </h3>
-            <p className="text-sm text-muted-foreground">未来的な都市景観を生成するアカウント</p>
+            <p className="text-sm text-muted-foreground">情熱的な赤髪美女の画像を生成するアカウント</p>
           </div>
           <div className="h-[500px] overflow-y-auto p-4 bg-amber-50/50">
             <TwitterEmbed username="enigmatic_echo2" />

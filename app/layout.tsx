@@ -34,7 +34,7 @@ export default function RootLayout({
               Enigmatic Echo Sister's
             </Link>
             <Link href="/admin" className="hover:underline text-amber-100">
-              管理者ページ
+              管理者とシステム概要
             </Link>
           </div>
         </header>
