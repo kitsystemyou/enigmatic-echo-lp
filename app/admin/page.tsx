@@ -1,5 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
+import getConfig from "next/config"
+
+const { publicRuntimeConfig } = getConfig();
+const basePath = publicRuntimeConfig?.basePath || "";
 
 export default function AdminPage() {
   return (
@@ -15,7 +19,7 @@ export default function AdminPage() {
           <div className="mansion-card p-6 rounded-lg text-center">
             <div className="mx-auto w-32 h-32 relative mb-4 border-4 border-amber-200 rounded-full overflow-hidden">
               <Image
-                src="/admin.png?height=128&width=128"
+                src={`${basePath}/admin.png?height=128&width=128`}
                 alt="管理者アイコン"
                 width={128}
                 height={128}
@@ -28,7 +32,7 @@ export default function AdminPage() {
 
           <div className="mansion-card p-6 rounded-lg">
             <Image
-              src="/placeholder.svg?height=600&width=400"
+              src={`${basePath}/placeholder.svg?height=600&width=400`}
               alt="管理者全身図"
               width={400}
               height={600}
@@ -59,7 +63,7 @@ export default function AdminPage() {
 
             <div className="my-6">
               <Image
-                src="/placeholder.svg?height=400&width=800"
+                src={`${basePath}/placeholder.svg?height=400&width=800`}
                 alt="システム概要図"
                 width={800}
                 height={400}

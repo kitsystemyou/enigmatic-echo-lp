@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { notFound } from "next/navigation"
-import getConfig from "next/config";
+import getConfig from "next/config"
 
 const { publicRuntimeConfig } = getConfig();
 const basePath = publicRuntimeConfig?.basePath || "";
