@@ -15,7 +15,7 @@ export default function AdminPage() {
           <div className="mansion-card p-6 rounded-lg text-center">
             <div className="mx-auto w-32 h-32 relative mb-4 border-4 border-amber-200 rounded-full overflow-hidden">
               <Image
-                src="/admin.webp?height=128&width=128"
+                src="/admin.png?height=128&width=128"
                 alt="管理者アイコン"
                 width={128}
                 height={128}
