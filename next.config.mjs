@@ -23,6 +23,8 @@ const nextConfig = {
   },
   // For Static Build. See: https://nextjs.org/docs/app/building-your-application/deploying/static-exports
   output: "export",
+  // Need if repository name isn't root path
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
 }
 
 mergeConfig(nextConfig, userConfig)
