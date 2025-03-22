@@ -1,6 +1,10 @@
 import Image from "next/image"
 import Link from "next/link"
 import { notFound } from "next/navigation"
+import getConfig from "next/config";
+
+const { publicRuntimeConfig } = getConfig();
+const basePath = publicRuntimeConfig?.basePath || "";
 
 // Sample account data
 const accounts = [
@@ -11,10 +15,10 @@ const accounts = [
     description:
       "幻想的な銀髪美女の画像を生成するAIアカウントです。独特の神秘さと気品溢れる美しさをお楽しみください。",
     images: [
-      "/silver/1.png?height=400&width=400",
-      "/silver/2.png?height=400&width=400",
-      "/silver/3.png?height=400&width=400",
-      "/silver/4.png?height=400&width=400",
+      `${basePath}/silver/1.png?height=400&width=400`,
+      `${basePath}/silver/2.png?height=400&width=400`,
+      `${basePath}/silver/3.png?height=400&width=400`,
+      `${basePath}/silver/4.png?height=400&width=400`,
     ],
   },
   {
@@ -24,10 +28,10 @@ const accounts = [
     description:
       "煌びやかな金髪美女の画像を生成するAIアカウントです。太陽のような活発さや明るさをお楽しみください。",
     images: [
-      "/gold/1.png?height=400&width=400",
-      "/gold/2.png?height=400&width=400",
-      "/gold/3.png?height=400&width=400",
-      "/gold/4.png?height=400&width=400",
+      `${basePath}/gold/1.png?height=400&width=400`,
+      `${basePath}/gold/2.png?height=400&width=400`,
+      `${basePath}/gold/3.png?height=400&width=400`,
+      `${basePath}/gold/4.png?height=400&width=400`,
     ],
   },
   {
@@ -37,10 +41,10 @@ const accounts = [
     description:
       "情熱的な赤髪美女の画像を生成するAIアカウントです。時に強く、時に優しい色彩をお楽しみください。",
     images: [
-      "/red/1.png?height=400&width=400",
-      "/red/2.png?height=400&width=400",
-      "/red/3.png?height=400&width=400",
-      "/red/4.png?height=400&width=400",
+      `${basePath}/red/1.png?height=400&width=400`,
+      `${basePath}/red/2.png?height=400&width=400`,
+      `${basePath}/red/3.png?height=400&width=400`,
+      `${basePath}/red/4.png?height=400&width=400`,
     ],
   },
 ]
