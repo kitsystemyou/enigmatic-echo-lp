@@ -51,7 +51,7 @@ export default function AdminPage() {
 
             <h2 className="font-serif text-amber-900">システム概要</h2>
             <p className="text-amber-900">
-              <p>(WIP)</p>
+              (WIP)
               各ボットは、OpenAI DALLE-3 をベースに、
               独自のプロンプトジェネレーターとスケジューラーを組み合わせたシステムで動作しています。
               画像生成のパラメータは定期的に更新され、常に新鮮で魅力的なコンテンツを提供します。
