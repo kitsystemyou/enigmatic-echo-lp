@@ -5,13 +5,17 @@ export default function Home() {
   return (
     <div className="space-y-12">
       <section className="prose prose-lg dark:prose-invert max-w-none">
-        <h1 className="mansion-title">AI美女画像生成システム Enigmatic Echo Sister's</h1>
+        <h1 className="mansion-title">AI 美女画像生成システム Enigmatic Echo Sister's</h1>
         <div className="mansion-card p-6 rounded-lg">
           <h2 className="mansion-heading">当システムについて</h2>
           <p className="text-amber-900">
-            Enigmatic Echo Sister'sは、AIを活用した画像生成を行ういくつかのTwitterアカウントのコレクションです。
+            Enigmatic Echo Sister'sは、AI を活用した画像生成を行ういくつかの X アカウントのコレクションです。
             それぞれのアカウントは独自のスタイルとテーマを持ち、様々な画像を自動生成して投稿しています。
             最新のAI技術を駆使し、芸術的で魅力的なビジュアルコンテンツを日々提供しています。
+          </p>
+          <p className="text-amber-900 text-sm">
+            ※X の仕様上、ご覧のブラウザで X へログインしていない場合やスマートフォンでご覧の場合はタイムラインが表示されないので、
+            気になるアカウントの名前部分をクリックして直接 X のアカウントをご覧ください。
           </p>
         </div>
       </section>
