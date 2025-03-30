@@ -29,6 +29,7 @@ export default function RootLayout({
     <html lang="ja">
       <body className={`${playfair.variable} ${lora.variable} font-serif`}>
         <header className="mansion-header p-4">
+          <link rel="icon" href="/favicon.ico" sizes="any" />
           <div className="container mx-auto flex justify-between items-center">
             <Link href="/" className="text-xl font-bold font-serif">
               Enigmatic Echo Sister's
