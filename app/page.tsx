@@ -25,7 +25,7 @@ export default function Home() {
           <div className="mansion-card-header p-4">
             <h3 className="text-xl font-serif font-semibold mb-2">
               <Link href="/account/0" className="hover:underline text-amber-900">
-                えに子@銀髪美女生成AI
+                セレナ-Selena@銀髪美女生成AI
               </Link>
             </h3>
             <p className="text-sm text-muted-foreground">幻想的な銀髪美女の画像を生成するアカウント</p>
@@ -39,7 +39,7 @@ export default function Home() {
           <div className="mansion-card-header p-4">
             <h3 className="text-xl font-serif font-semibold mb-2">
               <Link href="/account/1" className="hover:underline text-amber-900">
-                にー子@金髪美女生成AI
+                オーリア-Aurea@金髪美女生成AI
               </Link>
             </h3>
             <p className="text-sm text-muted-foreground">煌びやかな金髪美女の画像を生成するアカウント</p>
@@ -53,7 +53,7 @@ export default function Home() {
           <div className="mansion-card-header p-4">
             <h3 className="text-xl font-serif font-semibold mb-2">
               <Link href="/account/2" className="hover:underline text-amber-900">
-                えー子@赤髪美女生成AI
+                カーネ-Carnelian@赤髪美女生成AI
               </Link>
             </h3>
             <p className="text-sm text-muted-foreground">情熱的な赤髪美女の画像を生成するアカウント</p>
